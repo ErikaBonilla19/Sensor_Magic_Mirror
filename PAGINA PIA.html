@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación Web</title>
+    <!-- Enlaza tus hojas de estilo CSS aquí -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header style="widht:100%; height: 50px; background-color: rgba(218, 202, 255, 0.856);">
+        <h1><center> SENSOR MAGIC MIRROR </center></h1>
+        </header>
+
+        <form action="/busqueda" method="get">
+            <input type="search" name="q" placeholder="Buscar..." />
+            <button type="submit">Buscar</button>
+        </form>
+    
+        <body>
+            <ul class="nav">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Nuestros productos</a>
+                    <ul>
+                        <li><a href="#diseno">Diseño web</a></li>
+                        <li><a href="#desarrollo">Desarrollo de aplicaciones</a></li>
+                        <li><a href="#marketing">Marketing digital</a></li>
+                    </ul>
+                </li>
+                <li><a href="#servicios">Nuestros servicios</a></li>
+                <li><a href="#contacto">Contáctanos</a></li>
+                <li><a href="#acerca">Acerca de nosotros</a></li>
+                <li><a href="#registrarse">Inicia sesión o regístrate</a></li>
+            </ul>
+        
+       <center><img src="https://img.freepik.com/vector-premium/concepto-proyecto-planificacion-trabajo-equipo-analisis-negocios-ilustracion-plana-dibujos-animados_133260-1606.jpg" alt="img es la etiqueta de imagen"></center> 
+        <!-- Contenido de la página -->
+    <section id="inicio">
+        <center><h2>Inicio</h2></center>
+        <center><p>Se están realizando una serie de proyectos en la universidad según nuestras
+            investigaciones nos queremos basar en unas series de páginas web que ya están
+            creadas fuera de Colombia ya que aún no existe una plataforma centralizada y
+            especializada dentro de la universidad que proporcione información exhaustiva
+            sobre dichos proyectos ni facilite a los usuarios compartirlos de manera
+            estructurada y coherente.</p></center>
+            <br>
+    </section>
+
+    <section id="productos">
+        <center><h2>Nuestros Productos</h2></center>
+        <center><h3><p>Descubre nuestros últimos productos y servicios relacionados con el software.</p></h3></center>
+        <center><h4>esta página, encontrarás información sobre software y tecnología de vanguardia.</h4></center>
+        <!-- Contenido de la sección de productos -->
+    </section>
+
+    <section id="servicios">
+        <center><h2>Nuestros Servicios</h2></center>
+        <center><p> Esta pagina educativa sirve para proporcionar información y 
+        recursos educativos a estudiantes, maestros, padres y a cualquier 
+        persona interesada en aprender sobre un tema en particular. Estas 
+        páginas web pueden tener diversos propósitos y enfoques, y su 
+        utilidad puede variar dependiendo de su contenido y audiencia objetivo.</p></center>
+        <!-- Contenido de la sección de servicios -->
+    </section>
+
+    <section id="contacto">
+        <center><h2>Contáctanos</h2></center>
+        <center><p> Esta pagina educativa sirve para proporcionar información y 
+        recursos educativos a estudiantes, maestros, padres y a cualquier 
+        persona interesada en aprender sobre un tema en particular. Estas 
+        páginas web pueden tener diversos propósitos y enfoques, y su 
+        utilidad puede variar dependiendo de su contenido y audiencia objetivo.</p></center>
+        <!-- Contenido de la sección de servicios -->
+    </section>
+
+    <section id="acerca">
+        <center><h2>Acerca de nosotros</h2></center>
+        <center><p> Esta pagina educativa sirve para proporcionar información y 
+        recursos educativos a estudiantes, maestros, padres y a cualquier 
+        persona interesada en aprender sobre un tema en particular. Estas 
+        páginas web pueden tener diversos propósitos y enfoques, y su 
+        utilidad puede variar dependiendo de su contenido y audiencia objetivo.</p></center>
+        <!-- Contenido de la sección de servicios -->
+    </section>
+
+    <section id="registrarse"></section>
+        <h1>Inicia sesion o regístrate</h1>
+        <div class="container">
+            <div class="column">
+                <section id="Iniciar sesion" class="form-container">
+                    <h1>Iniciar Sesión</h1>
+                    <form action="procesar_iniciar_sesion.php" method="POST">
+                        <label for="usuario">Usuario:</label>
+                        <input type="text" id="usuario" name="usuario" required>
+                        <br>
+                        <label for="contrasena">Contraseña:</label>
+                        <input type="password" id="contrasena" name="contrasena" required>
+                        <br>
+                        <input type="submit" value="Iniciar Sesión">
+                    </form>
+                </section>
+            </div>
+    
+            <div class="column">
+                <form action="Programa.php" method="POST" class="login-form form-container">
+                    <h1>Registrarse</h1>
+                    <center><div class="input">
+                        <input type="text" placeholder="Nombre">
+                    </div></center>
+                    <br>
+                    <center><div class="input">
+                        <input type="number" min="10" max="50" required step="3" placeholder="Código">
+                    </div></center>
+                    <br>
+                    <center><div class="input">
+                        <input type="date" placeholder="Fecha">
+                    </div></center>
+                    <br>
+                    <center><div class="input">
+                        <input type="password" placeholder="Contraseña">
+                    </div></center> 
+                    <br>
+                    <center><div class="input">
+                        <input type="tel" placeholder="Teléfono">
+                    </div></center>
+                    <br>
+                    <center>><div class="input">
+                        <input type="email" placeholder="Correo">
+                    </div></center>
+                    <br>
+                    <center><div class="input">
+                        <input type="month" placeholder="Mes y día actual">
+                    </div></center>
+                    <br>
+                    <center><div class="button">
+                        <input type="submit" value="Enviar">
+                    </div></center>
+                </form>
+            </div>
+        </div>
+    </section>
+       
+
+    <body>
+    <center><a href="https://twitter.com/TuUsuarioDeTwitter" target="_blank">Síguenos en Twitter</a></center>
+    <br>
+  
+  <html>
+    <head>
+        <title>Texto desplazándose hacia la izquierda</title>
+    </head>
+    <body>
+        <marquee direction="left" scrollamount="5">
+            Integrantes: Erika Bonilla y Angely Pinto.
+        </marquee>
+    </body>
+    </html>
+
+
+    <footer>
+        <!-- Pie de página -->
+        <center><p>&copy; 2023 SENSOR MAGIC MIRROR</p></center>
+    </footer>
+
+    <!-- Enlaza tus scripts de JavaScript aquí -->
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
